@@ -8,22 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
     <link rel="stylesheet" href="css/style.css">
-    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script> 
-<script type="text/javascript" src="js/cambiar-fondo.js"></script>
+    <script type="text/javascript" src="js/cambiar-fondo.js"></script>
     <title>La tiendita de los horrores</title>
 </head>
 
 <body>
 
-    <main  id="container" class="container" >
+    <main id="container" class="container">
 
         <header class="header">
 
             <!-- logo -->
-            
+
             <img src="images/logo.png" alt="logotipo" class="logo">
-            
+
 
             <!-- menu -->
             <nav class="menu">
@@ -31,8 +34,8 @@
                 <ul class="menu-list">
                     <!-- botones -->
                     <li class="menu-list_item"><a href="#">Home</a>
-                    <li class="menu-list_item"><a href="#">Nosotros</a>
-                    <li class="menu-list_item"><a href="#">Contacto</a>
+                    <li class="menu-list_item"><a href="#us">Nosotros</a>
+                    <li class="menu-list_item"><a href="#formcontacto">Contacto</a>
                     <li class="menu-list_item"><a class="boton-tienda" href="#">Tienda</a>
 
 
@@ -51,36 +54,282 @@
 
         </article>
 
-    <div class="footer-wrapper">
+        <article id="us" class="nosotros">
 
-        <footer class="footer">
+            <section class="about">
+                <div class="main">
+                    <img
+                        src="https://media.tiempodesanjuan.com/p/4998901290f6595662e3c9a67e5022e1/adjuntos/331/imagenes/000/001/0000001160/790x0/smart/697872jpeg.jpeg">
+                    <div class="about-text">
+                        <h1>La tiendita</h1>
+                        <h5>¿Quienes <span>somos</span>?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis temporibus delectus
+                            dolores quas, veritatis quam, dolorem ducimus et nemo recusandae, ad minima quae quibusdam
+                            officia deserunt quod reprehenderit ratione doloribus saepe. Dolorum, exercitationem!
+                            Explicabo
+                            delectus et reprehenderit earum nam quo ad ullam mollitia impedit fugiat fuga facere totam
+                            odit
+                            atque commodi similique possimus recusandae ea exercitationem perspiciatis unde architecto,
+                            dolorem vel! Accusantium, quod. Ullam, possimus debitis. Cumque impedit quae sunt iusto
+                            illo.
 
-            <section class="footer_widgets">
-
-                <h3 class="footer_widget_title">Ubicación</h3>
-                <p class="footer_widget_text">Intendente Leonelli 360</p>
+                        </p>
+                        <button class="boton-nosotros" type="button">Contactanos</button>
+                    </div>
+                </div>
 
             </section>
 
-            <section class="footer_widgets">
+        </article>
+        
+        <article>
+        <div class="titulo-semillas">
 
-                <h3 class="footer_widget_title">Telefono</h3>
-                <p class="footer_widget_text">03537 15584682</p>
+            <h2>Semillas con 10% de descuento</h2>
 
-            </section>
+        </div>
 
-            <section class="footer_widgets">
+    </article>
 
-                <h3 class="footer_widget_title">Email</h3>
-                <p class="footer_widget_text">latienditagrow@gmail.com</p>
 
-            </section>
+        <article class="semillas">
 
-        </footer>
+            
 
-    </div>
+            <div class="tarjetas">
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="images/og.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>O.G Kush</h3>
+                        <h4>Dinafem</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="/images/sad-s1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Sweet Afgani Delicious</h3>
+                        <h4>Sweet Seeds</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="/images/Jackherer.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Jack Herer</h3>
+                        <h4>Sweet Seeds</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="/images/gorila.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Gorilla Glue</h3>
+                        <h4>BSF Seeds</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="/images/gorila.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Gorilla Glue</h3>
+                        <h4>BSF Seeds</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="/images/gorila.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Gorilla Glue</h3>
+                        <h4>BSF Seeds</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="/images/gorila.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Gorilla Glue</h3>
+                        <h4>BSF Seeds</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <div class="circle"></div>
+                        <div class="img">
+                            <img src="/images/gorila.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Gorilla Glue</h3>
+                        <h4>BSF Seeds</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+                    </div>
+
+                    <div class="contact">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+        </article>
+        
+       
+
+        <article id="formcontacto" class="formcontacto">
+
+            <div class="wrapper">
+
+                <div class="inner">
+                    <form action="">
+                        <h3>Contactanos</h3>
+                        <p>Hacenos saber tus dudas y recomendaciones.</p>
+                        <label class="form-group">
+                            <input type="text" class="form-control" required>
+                            <span>Tu Nombre</span>
+                            <span class="border"></span>
+                        </label>
+                        <label class="form-group">
+                            <input type="text" class="form-control" required>
+                            <span for="">Tu Email</span>
+                            <span class="border"></span>
+                        </label>
+                        <label class="form-group">
+                            <textarea name="" id="" class="form-control" required></textarea>
+                            <span for="">Mensaje</span>
+                            <span class="border"></span>
+                        </label>
+                        <button>Enviar
+                            <i class="zmdi zmdi-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </article>
+
+        <div class="footer-wrapper">
+
+            <footer class="footer">
+
+                <section class="footer_widgets">
+
+                    <h3 class="footer_widget_title">Ubicación</h3>
+                    <p class="footer_widget_text">Intendente Leonelli 360</p>
+
+                </section>
+
+                <section class="footer_widgets">
+
+                    <h3 class="footer_widget_title">Telefono</h3>
+                    <p class="footer_widget_text">03537 15584682</p>
+
+                </section>
+
+                <section class="footer_widgets">
+
+                    <h3 class="footer_widget_title">Email</h3>
+                    <p class="footer_widget_text">latienditagrow@gmail.com</p>
+
+                </section>
+
+            </footer>
+
+        </div>
+
+        <div class="copyright">
+
+            <h4>Todos los derechos reservados para "La tienda de los horrores" - 2023 - Sitio creado por **PlusCode**</h4>
+
+        </div>
 
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
